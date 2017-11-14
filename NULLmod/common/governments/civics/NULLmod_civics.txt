@@ -1,0 +1,416 @@
+NULLmod_civic_creators = {
+	description = "NULLmod_civic_creators_modifier"
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_mechanists
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modification = no
+}
+
+NULLmod_civic_eugenics = {
+	potential = { ethics = { NOT = {value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+			NOT = {
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modification = no
+	modifier = {
+		leader_skill_levels = 2
+		pop_growth_speed = -0.10
+		country_resource_unity_mult = 0.20
+	}
+}
+
+NULLmod_civic_blackouts = {
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		pop_citizen_happiness = -0.10
+		country_resource_energy_mult = 0.50
+		country_resource_minerals_mult = -0.10
+		country_society_tech_research_speed = -0.10
+		country_engineering_tech_research_speed = 0.05
+		country_physics_tech_research_speed = 0.05
+	}
+}
+
+NULLmod_civic_backwards = {
+	potential = { ethics = { NOT = {value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modification = no
+	modifier = {
+		country_resource_unity_mult = 0.50
+		num_tech_alternatives_add = -1
+		country_resource_influence_add = 1
+		country_core_sector_system_cap = 2
+		country_leader_pool_size = -1
+		species_leader_exp_gain = -0.20
+		all_technology_research_speed = -0.10
+	}
+}
+
+NULLmod_civic_age-of-reason = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		civics = {
+			OR = {
+				value = civic_philosopher_king
+				value = civic_meritocracy
+				value = civic_technocracy
+				value = civic_idealistic_foundation
+				value = civic_mechanists
+			}
+		}
+	}
+	random_weight = { base = 0.5 }
+	modifier = {
+		all_technology_research_speed = 0.10
+		country_resource_influence_add = -0.5
+		species_leader_exp_gain = 0.10
+		country_leader_pool_size = 1
+		pop_government_ethic_attraction = -0.30
+		pop_consumer_goods_mult = 0.10
+	}
+}
+
+NULLmod_civic_supreme-leader = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_spiritualist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+		}
+		civics = {
+			OR = {
+				value = civic_imperial_cult
+				value = civic_exalted_priesthood
+				value = civic_inwards_perfection
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		pop_government_ethic_attraction = 0.50
+		planet_unrest_mult = 0.20
+		slave_food_output = 0.05
+		slave_mineral_output = 0.10
+	}
+}
+
+NULLmod_civic_monuments-of-liberty = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		civics = {
+			OR = {
+				value = civic_beacon_of_liberty
+				value = civic_free_haven
+			}
+			NOT = {
+				value = civic_functional_architecture
+			}
+			
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		planet_migration_all_pull = 0.20
+		country_resource_unity_mult = 0.05
+		planet_building_cost_mult = 0.10
+		pop_government_ethic_attraction = 0.10
+	}
+}
+
+NULLmod_civic_secret-police = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		civics = {
+			value = civic_police_state
+		}
+	}
+	random_weight = {  base = 1 }
+	modifier = {
+		planet_unrest_mult = -0.05
+		country_resource_influence_add = 0.5
+		pop_government_ethic_attraction = 0.10
+	}
+}
+
+NULLmod_civic_monopolies = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		civics = {
+			value = civic_corporate_dominion
+		}
+	}
+	random_weight = { base = 10 }
+	modifier = {
+		country_resource_energy_mult = 0.05
+		country_resource_minerals_mult = 0.05
+		country_resource_influence_add = -0.5
+	}
+}
+
+NULLmod_civic_megacorporation = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		civics = {
+			value = NULLmod_civic_monopolies
+		}
+	}
+	random_weight = { base = 10 }
+	modifier = {
+		pop_consumer_goods_mult = 0.05
+		country_resource_minerals_mult = 0.05
+		country_resource_unity_mult = 0.05
+		country_leader_pool_size = 1
+	}
+}
+
+NULLmod_civic_reborn-mind = {
+	potential = { authority = { value = auth_hive_mind } }
+	random_weight = { base = 0.5 }
+	modifier = {
+		pop_consumer_goods_mult = 0.10
+		all_technology_research_speed = 0.15
+	}
+}
+
+NULLmod_civic_ancient = {
+	potential = { authority = { NOT = { value = auth_machine_intelligence } } }
+	possible = {
+		ethics = {
+			NOT = {
+				text = "NULLmod_civic_tooltip_not-fanatic"
+				value = ethic_fanatic_pacifist
+				value = ethic_fanatic_materialist
+				value = ethic_fanatic_egalitarian
+				value = ethic_fanatic_xenophobe
+				value = ethic_fanatic_militarist
+				value = ethic_fanatic_spiritualist
+				value = ethic_fanatic_authoritarian
+				value = ethic_fanatic_xenophile
+			}
+		}
+	}
+	modification = no
+	random_weight = { base = 1 }
+	modifier = {
+		country_resource_influence_add = 0.5
+		pop_government_ethic_attraction = 0.10
+		country_resource_unity_mult = 0.10
+	}
+}
+
+NULLmod_civic_malicious = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			value = ethic_fanatic_authoritarian
+		}
+		civics = {
+			NOT = {
+				value = civic_environmentalist
+			}
+		}
+	}
+	random_weight = { base = 0.5 }
+	modification = no
+	modifier = {
+		planet_migration_all_pull = -0.80
+		pop_citizen_happiness = -0.05
+		country_resource_unity_mult = 0.10
+		slave_food_output = 0.15
+	}
+}
+
+NULLmod_civic_advanced-mathematics = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	random_weight = { base = 1 }
+	modifier = {
+		country_engineering_tech_research_speed = 0.10
+		country_physics_tech_research_speed = 0.10
+	}
+}
+
+NULLmod_civic_distributed-computing = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = {
+			NOT = {
+				value = NULLmod_civic_blackouts
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		all_technology_research_speed = 0.05
+		category_computing_research_speed_mult = 0.15
+	}
+}
+
+NULLmod_civic_distributed-computing_machine = {
+	potential = { authority = { value = auth_machine_intelligence } }
+	possible = {
+		civics = {
+			NOT = {
+				value = NULLmod_civic_blackouts
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		all_technology_research_speed = 0.05
+		category_computing_research_speed_mult = 0.15
+	}
+}
+
+NULLmod_civic_factory-regulators = {
+	potential = { authority = { value = auth_machine_intelligence } }
+	possible = {
+		civics = {
+			OR = {
+				value = civic_machine_builder
+				value = civic_machine_replication
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		category_materials_research_speed_mult = 0.60
+		all_technology_research_speed = -0.10
+		pop_robot_build_speed_mult = 0.10
+	}
+}
+
+NULLmod_civic_nihilists = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		ethics = {
+			NOT = {
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+		}
+		authority = {
+			NOT = {
+				value = auth_democratic
+			}
+		}
+	}
+	random_weight = { base = 0.5 }
+	modifier = {
+		pop_citizen_happiness = -0.20
+		planet_unrest_mult = -0.30
+		all_technology_research_speed = 0.10
+		country_society_tech_research_speed = -0.20
+		country_physics_tech_research_speed = 0.20
+	}
+}
+
+NULLmod_civic_file-transfer-protocols = {
+	potential = { authority = { value = auth_machine_intelligence } }
+	possible = {
+		civics = {
+			value = civic_machine_ota_updates
+		}
+	}
+	random_weight = { base = 0.5 }
+	modifier = {
+		country_society_tech_research_speed = 0.15
+		species_leader_exp_gain = 0.10
+	}
+}
+
+NULLmod_civic_compiled-code = {
+	potential = { authority = { value = auth_machine_intelligence } }
+	random_weight = { base = 1 }
+	modification = no
+	modifier = {
+		species_leader_exp_gain = -0.10
+		pop_robot_build_speed_mult = 0.10
+		edict_influence_cost = 0.20
+		country_leader_cap = 2
+		country_resource_unity_mult = 0.05
+		leader_skill_levels = 1
+	}
+}
+
+NULLmod_civic_insane = {
+	potential = { authority = { value = auth_hive_mind } }
+	possible = {
+		civics = {
+			value = NULLmod_civic_ancient
+		}
+	}
+	random_weight = { base = 0.3 }
+	modification = no
+	modifier = {
+		all_technology_research_speed = -0.20
+		pop_growth_speed = 0.50
+		pop_consumer_goods_mult = -0.25
+		country_resource_influence_add = 1
+	}
+}

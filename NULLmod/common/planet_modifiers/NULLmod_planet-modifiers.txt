@@ -1,0 +1,18 @@
+NULLmod_planet-modifier_mining-module = {
+	spawn_chance = {
+		value = 0
+	}
+	modifier = "NULLmod_planet-modifier_mining-module"
+}
+NULLmod_planet-modifier_solar-module = {
+	spawn_chance = {
+		value = 0
+	}
+	modifier = "NULLmod_planet-modifier_solar-module"
+}
+NULLmod_planet-modifier_research-module = {
+	spawn_chance = {
+		value = 0
+	}
+	modifier = "NULLmod_planet-modifier_research-module"
+}

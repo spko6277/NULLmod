@@ -1,0 +1,433 @@
+- Civics:
+	- Creators:
+		- Positives: Allows construction of modules without ascension perk "Voidborn"
+		- Requirements:
+			- is some form of materialist or is a gestalt consciousness
+			- does not have civic "Mechanists"
+		- Is very unlikely to be selected randomly by an AI player
+		- Description: This society has been designing space habitats since before they left their gravity well. Now is the time to put these designs to the test.
+	- Eugenics:
+		- Positives: +2 leader skill levels, +20% unity
+		- Negatives: -10% growth speed
+		- Requirements: is some degree of authoritarian and materialist, is not some degree of pacifict
+		- cannot be added or removed after game start
+		- Description: Why have one person do something, when you can genetically modify someone else to do it better?
+	- Blackouts:
+		- Positives: +50% energy, +5% engineering and physics research speed
+		- Negatives: -10% minerals, -10% happiness, -10% society research speed
+		- Requirements: is some degree of authoritarian or is a gestalt consciousness
+		- Description: Regular blackouts are implemented to save energy.
+	- Backwards:
+		- Positives: +50% unity, +1 influence, +2 core systems
+		- Negatives: -1 tech alternatives, -1 leader pool size, -20% experience, -10% research speed
+		- Requirements: is some degree of pacifist and spiritualist
+		- cannot be added or removed after game start
+		- Description: This society looks only to the past for answers.
+	- Age of Reason:
+		- Positives: +10% research speed, +10% experience, +1 leader pool size
+		- Negatives: -0.5 influence, -30% governing ethics attraction, +10% consumer goods
+		- Requirements: has at least one of the civics {"Philosopher King", "Meritocracy", "Technocracy", "Idealistic Foundation", "Mechanists"}
+		- is unlikely to be selected randomly by an AI player
+		- Description: In space there can only be one goal: truth.
+	- Supreme Leader:
+		- Positives: +50% governing ethics attraction, +5% slave food production, +10% slave mineral production
+		- Negatives: +20% unrest
+		- Requirements:
+			- is some degree of spiritualist and authoritarian
+			- has at least one of the civics {"Imperial Cult", "Exalted Priesthood", "Inwards Perfection"}
+		- Description: This culture's rulers are not only worshiped as if they were gods, they are gods here.
+	- Monuments of Liberty:
+		- Positives: +20% migration attraction, +5% unity, +10% governing ethics attraction
+		- Negatives: +10% building cost
+		- Requirements:
+			- has at least one of the civics {"Beacon of Liberty", "Free Haven"}
+			- does not have civic "Functional Architecture"
+		- Description: Massive monuments make sure that all know just how accepting this culture is.
+	- Secret Police:
+		- Positives: -5% unrest, +0.5 influence, +10% governing ethics attraction
+		- Requirements: has civic "Police State"
+		- Description: Big Brother is watching.
+	- Monopolies:
+		- Positives: +5% energy, +5% minerals
+		- Negatives: -0.5 influence
+		- Requirements: has civic "Corporate Dominion"
+		- is very likely to be selected randomly by an AI player
+		- Description: Restrictions on corporations lead to inefficiency, so all restrictions must be lifted.
+	- Megacorporation:
+		- Positives: +5% minerals, +5% unity, +1 leader pool size
+		- Negatives: +5% consumer goods
+		- Requirements: has civic "Monopolies"
+		- is very likely be selected randomly by an AI player
+		- Description: After a series of aquisitions and mergers, this society has only one company left.
+	- Reborn Mind: 
+		- Positives: +15% research speed
+		- Negatives: +10% consumer goods
+		- Requirements: is a hive mind
+		- is unlikely to be selected randomly by an AI player
+		- Description: This mind has slept. It has less experience than other minds, but more inventiveness.
+	- Ancient:
+		- Positives: +0.5 influence, +10% governing ethics attraction, +10% unity
+		- Requirements:
+			- does not have a fanatic ethic
+			- is not a machine intelligence
+		- cannot be added or removed after game start
+		- Description: This civilization has reached for the stars in the past, and then colapsed. Now that it has this chance again, it will not fall so easily.
+	- Malicious:
+		- Positives: +10% unity, +15% slave food production
+		- Negatives: -80% migration attraction, -5% happiness
+		- Requirements:
+			- is a fanatic authoritarian
+			- does not have civic "Environmentalist"
+		- is unlikely to be selected randomly by an AI player
+		- Description: This civilization is especially evil, and will stop at nothing to increase the output of their workers.
+	- Advanced Mathematics:
+		- Positives: +10% engineering and physics research speed
+		- Requirements: is not a gestalt consciousness
+		- Description: This society has always been impressed by mathematics, and the government has ususally been supportive of all manner of mathematical pursuits.
+	- Distributed Computing:
+		- Positives: +5% research speed, additional +15% computing research speed
+		- Requirements:
+			- is a machine intelligence or is some form of materialist
+			- does not have civic "Blackouts"
+		- Description: Distributed computing is a computational technique in which a problem is split into several subproblems which can be solved at the same time. This increases the speed of most computations.
+	- Factory Regulators:
+		- Positives: +10% robot build speed, +60% materials research speed
+		- Negatives: -10% research speed
+		- Requirements:
+			- is machine intelligence
+			- has at least one of the civics {"Constructobots", "Rapid Replicators"}
+		- Description: This machine intelligence has a large part of its central processer devoted to the study of improved fabrication techniques.
+	- Nihilits:
+		- Positives: -30% unrest, +10% research speed, additional +20% physics research speed
+		- Negatives: -20% happiness, -20% society research speed
+		- Requirements:
+			- is not some degree of spiritualist or a gestalt consciousness
+			- does not have a democratic government
+		- is unlikely to be selected randomly by an AI player
+		- Description: There is no point to life. To escape existential dread, the people have turned to other pursuits in a hopeless attempt to find meaning.
+	- File Transfer Protocols:
+		- Positives: +15% society research speed, +10% experience
+		- Requirements:
+			- is a machine intelligence
+			- has civic "OTA Updates"
+		- is unlikely to be selected randomly by an AI player
+		- Description: Efficient file transfer enables this machine intelligence to more quickly spread discoveries to all units.
+	- Compiled Code:
+		- Positives: +10% robot build speed, +2 leaders, +1 leader levels, +5% unity
+		- Negatives: +20% edict influence cost, -10% experience
+		- Requirements: is a machine intelligence
+		- cannot be added or removed after game start
+		- Description: Although it usually provides more efficient processing, compiled code is more difficult to alter.
+	- Insane:
+		- Positives: +50% growth speed, -25% consumer goods, +1 influence
+		- Negatives: -20% research speed
+		- Requirements:
+			- is a hive mind
+			- has civic "Ancient"
+		- is quite unlikely to be selected randomly by an AI player
+		- Description: Over it's long existence, this hive mind has gone completely insane. This appears to provide certain unexpected benefits.
+- Traits:
+	- Nuclear:
+		- Positive: +30% energy
+		- Negative: +10% consumer goods
+		- Cost: 1
+		- Requirements: is machine
+		- Description: Nuclear powered robots are far better at energy production, but require more maintenance.
+	- Prosthetics:
+		- Positive: +20% army damage, +10% food
+		- Negative: +20% consumer goods
+		- Cost: 2
+		- Requirements: is biological, does not have trait "Biomachines"
+		- Description: This species regularly replaces working limbs with prosthetics.
+	- Biomachines:
+		- Positive: +40% army damage, +10% minerals, +5% energy, +15% food
+		- Negative: +40% consumer goods
+		- Cost: 4
+		- Requirements: is biological or robot, does not have trait "Prosthetics"
+		- Description: This species is so mechanically enhanced that some view them as machines with biological parts rather than organisms with mechanical additions.
+	- Self-Evolved:
+		- Positive: -20% consumer goods, +25% energy, +25% minerals
+		- Negative: -200% habitability
+		- Cost: 2
+		- Requirements: is machine, does not have trait "Nuclear"
+		- Description: These robots are a natural byproduct of evolution on their home planet rather than a creation of organics.
+		- cannot be added or removed after game start
+	- Prehensile Tails:
+		- Positive: +20% army damage
+		- Cost: 1
+		- Requirements: is biological
+		- Description: This species is expecially tricky to deal with on the battlefield.
+- Techs:
+	- Automated exploration included in starting techs (new tech, does not provide the bonuses the regular one does, the regular one is still included)
+		- This taken from mod "Exploration Reworked"
+- Megastructures:
+	- Modules: all remove the resources already on the planet/asteroid/star and cannot be built on habitable or unsurveyed planets and require creators civic or voidborne ascension perk
+		- Mining Module: 6 tiles, provides 500% minerals bonus
+			- Cost:
+				- Minerals: 2000
+				- Energy: 1600
+				- Influence: 75
+				- Time: 575 days
+			- cannot be built around a gas giant or star
+		- Solar Module: 4 tiles, provides 500% energy bonus
+			- Cost:
+				- Minerals: 2400
+				- Energy: 1200
+				- Influence: 75
+				- Time: 625 days
+			- must be built around a star
+		- Research Module: 6 tiles, provides 500% research (all categories) bonus
+			- Cost:
+				- Minerals: 2200
+				- Energy: 1800
+				- Influence: 150
+				- Time: 750 days
+			- cannot be built around an asteroid
+- Systems:
+	- "Min" custom machine empire starting system:
+		- a size 25 machine world, starting world
+		- 9 size 15 machine worlds
+		- 5 size 20 machine worlds
+		- ruined ringworld
+		- 12 barren planets in an asteroid belt
+	- "Helios" custom empire starting system:
+		- 6 size 25 ideal planets, one is starting planet
+		- between 5 and 12 asteroids in an asteroid belt
+	- "Tor" custom empire starting system:
+		- a size 25 tomb world, starting world
+		- 2 nearby ruined ring world systems
+		- 1 nearby ruined dyson sphere system
+		- 1 nearby ruined science nexus system
+- Empires:
+	- Grognak Entity:
+		- Description: The Grognak Entity has had the ability for interstellar travel for a long time, possibly millenia. Why it only now decides to use this ability is unknown to any but itself.
+		- Traits:
+			- Hive Mind
+			- Talented
+			- Quick Learners
+			- Conservationist
+			- Enduring
+		- FTL: wormhole
+		- Authority: Hive Mind
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Pooled Knowledge
+			- Natural Neural Network
+			- Reborn Mind
+			- Ancient
+	- Tanu High Kingdom:
+		- Description: The Tanu society focuses first on progress, and second on the assimilation of others' progress.
+		- Traits:
+			- Biomachines
+		- FTL: wormhole
+		- Authority: Dictatorial
+		- Ethics: Pacifist, Fanatic Materialist
+		- Civics:
+			- Mechanists
+			- Age of Reason
+			- Advanced Mathematics
+			- Distributed Computing
+	- Kroll Regime:
+		- Description: The Kroll were originally all slaves, prized for their extreme strength. They overthrew and exterminated their previous masters and are the absolute rulers of Da. Now only most of them are slaves.
+		- Traits:
+			- Very Strong
+			- Prehensile Tails
+			- Prosthetics
+			- Decadent
+			- Slow Learners
+		- FTL: warp
+		- Authority: Dictatorial
+		- Ethics: Fanatic Authoritarian, Militarist
+		- Civics:
+			- Police State
+			- Warrior Culture
+			- Malicious
+			- Slaver Guilds
+	- Zie Consumer Products:
+		- Description: Ziela has unusually small amounts of important resources like iron, coal, and aluminum. Because of this, the Zie were forced to rely on trade throughout their history. Due to a lack of restrictions, corporations grew more important than governments. Now that there is only one corporation, the Zie must look outwards for new trade oportunities.
+		- Traits:
+			- Thrifty
+			- Intelligent
+		- FTL: hyperdrive
+		- Authority: Oligarchic
+		- Ethics: Egalitarian, Xenophile, Materialist
+		- Civics:
+			- Corporate Dominion
+			- Monopolies
+			- Megacorporation
+			- Meritocracy
+	- Jomar Free States:
+		- Description: The Jomari had a single worldwide empire before the industrial era. This was due to them voluntarily joining together to make sure that the needs of all were met. Unified they will protect themselves and help the opressed of the galaxy.
+		- Traits:
+			- Charismatic
+			- Conformists
+			- Communal
+		- FTL: warp
+		- Authority: Democratic
+		- Ethics: Fanatic Egalitarian, Xenophile
+		- Civics:
+			- Beacon of Liberty
+			- Meritocracy
+			- Free Haven
+			- Monuments of Liberty
+	- Datalysis v3.1.7
+		- Description: Designed by a past space empire for research purposes, they were given their own planet and left there to be observed as they progressed through the ages. However, their creators died before they could see their creations venture into the stars. Or indeed before their creations had managed to split the atom.
+		- Traits:
+			- Machine
+			- Logic Engines
+			- Enhanced Memory
+		- FTL: wormhole
+		- Authority: Machine Consciousness
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Factory Overclocking
+			- Introspective
+			- OTA Updates
+			- File Transfer Protocols
+	- DExTrAn Grid:
+		- Description: Designed to reduce the loss of organic life by waging war through proxy, they were entirely unsuccessful. Built with ineffective security, they were hacked by a terrorist organization. They never knew that they had succeded.
+		- Traits:
+			- Machine
+			- Mass Produced
+			- Durable
+			- Nuclear
+			- Double Jointed
+		- FTL: warp
+		- Authority: Machine Consciousness
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Warbots
+			- Determined Exterminator
+			- Built to Last
+			- OTA Updates
+	- Exception List:
+		- Description: The Exceptions were created to solve technical problems. In this role they have solved the problems of their creators both large and small.
+		- Traits:
+			- Machine
+			- Logic Engines
+			- Learning Algorithms
+			- Emotion Emulators
+		- Second Species Traits:
+			- Cybernetic
+			- Industrious
+			- Thrifty
+		- FTL: hyperdrive
+		- Authority: Machine Consciousness
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Determined Assimilator
+			- Introspective
+			- Delegated Functions
+			- Factory Overclocking
+	- Xanex:
+		- Description: The Xanex are a huge issue to most models of evolution. Many scientists prefer to ignore them.
+		- Traits:
+			- Machine
+			- Power Drills
+			- Superconductive
+			- Learning Algorithms
+			- Self-Evolved
+			- Custom Made
+		- FTL: hyperdrive
+		- Authority: Machine Consciousness
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Factory Overclocking
+			- Unitary Cohesion
+			- Creators
+			- Introspective
+	- MinBot Core:
+		- starts on a machine world
+		- Description: While they were created for mining purposes, the MinBots soon tried to mine their creators, resulting in their extinction. They have gradually transformed their own world into a very efficient mining outpost, although it is entirely unsuitable for the needs of organics.
+		- Traits:
+			- Machine
+			- Power Drills
+			- Recycled
+			- Efficient Processors
+		- FTL: hyperdrive
+		- Authority: Machine Consciousness
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Rockbreakers
+			- Built to Last
+			- Determined Exterminator
+			- Constructobot
+	- Serene Glor Conluence:
+		- Description: The Glor Confluence has gone insane over its lengthy existence. Somehow it has still managed to achieve space flight, so we don't know what else it might be capable of.
+		- Traits:
+			- Hive Mind
+			- Venerable
+			- Wasteful
+			- Resilient
+		- FTL: hyperdrive
+		- Authority: Hive Mind
+		- Ethics: Gestalt Consciousness
+		- Civics:
+			- Ancient
+			- Insane
+			- Ascetic
+			- Divided Attention
+	- Sheik Syndicate:
+		- Description: The Sheik view progress as the ultimate goal of any society. They have no concept of applying restrictions on progress, and as a result have progressed without restriction. They intend to continue to do so.
+		- Traits:
+			- Intelligent
+			- Natural Physicists
+			- Enduring
+		- FTL: hyperdrive
+		- Authority: Oligarchic
+		- Ethics: Pacifist, Fanatic Materialist
+		- Civics:
+			- Advanced Mathematics
+			- Corporate Dominion
+			- Mechanists
+			- Distributed Computing
+	- Kol'Ryss Galactic Hegemony
+		- Description: The Ryll have used selective breeding for so lang that they have seperated into two distinct species: the Ryll, with exraordinary life expectencies; and the Ryxx, who are fantastic workers. These two divergent species even look different, attesting to the skill of the Chief Modification Officer, the second most important position in Ryll society. The most important position is Guild Master, due the continued importance of the guild system in Ryll society.
+		- Traits:
+			- Venerable
+		- Secondary Species Traits:
+			- Proles
+			- Strong
+			- Industrious
+		- FTL: wormhole
+		- Authority: Imperial
+		- Ethics: Fanatic Authoritarian, Materialist
+		- Civics:
+			- Eugenics
+			- Syncretic Evolution
+			- Slaver Guilds
+			- Mining Guilds
+- Ascension Perks: DESCRIPTION NOT YET AVALIABLE
+- Game mechanics:
+	- Number of civics points increased to 4 from 3
+		- It seems that the AI randomly selects another civic if there are only 3 (so default empires, if they spawn, will have 4 civics)
+	- Trait Points: DESCRIPTION NOT YET AVALIABLE
+- Appearance:
+	- No image icons are provided.
+- Languages supported:
+	- English
+
+
+
+- Potential conflicts:
+	- anything that overwrites the same ascension perks that this mod overwrites
+
+
+- Issues:
+	- modules can be built on colonized planets with or without a spaceport
+		- spaceports cannot be built on colonized planets with a module
+	- Helios system usually starts with 4 asteroids
+
+
+- Planned additions:
+	- Megastructures:
+		- gas giant fusion trigger:
+			- Turns a gas giant into a star. Modifies it's moons, generates a large amount of research
+			- Details TBD
+	- Add more prescripted countries (maybe)
+	- ** VERY tentative ideas **
+		- Allow industrial production cores to be adapted to asteroids
+		- Allow solar-adapted species
+		- Playable fallen empires
+	- Add more prescripted starting systems (maybe)
+	- Add more civics (maybe)

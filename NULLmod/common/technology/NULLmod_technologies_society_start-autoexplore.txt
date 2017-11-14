@@ -1,0 +1,12 @@
+# THIS FILE FROM MOD "Exploration Reworked"
+tech_default_automated_exploration = {
+	cost = 0
+	area = society
+	tier = 0
+	category = { new_worlds }
+	start_tech = yes
+	#allow auto-explore on science ships
+	feature_flags = {
+		tech_automated_exploration
+	}
+}

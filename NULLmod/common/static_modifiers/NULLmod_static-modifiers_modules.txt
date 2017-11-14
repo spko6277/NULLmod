@@ -1,0 +1,14 @@
+NULLmod_planet-modifier_mining-module = {
+	tile_resource_minerals_mult = 5.0
+	icon_frame = 1
+}
+NULLmod_planet-modifier_solar-module = {
+	tile_resource_energy_mult = 5.0
+	icon_frame = 1
+}
+NULLmod_planet-modifier_research-module = {
+	tile_resource_society_research_mult = 5.0
+	tile_resource_physics_research_mult = 5.0
+	tile_resource_engineering_research_mult = 5.0
+	icon_frame = 1
+}

@@ -1,0 +1,3 @@
+﻿	NGameplay = {
+		GOVERNMENT_CIVIC_POINTS_BASE = 4
+	}

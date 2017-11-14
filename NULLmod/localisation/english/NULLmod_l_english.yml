@@ -1,0 +1,126 @@
+﻿l_english:  
+
+ # civics
+
+ NULLmod_civic_blackouts:0 "Blackouts"
+ NULLmod_civic_blackouts_desc:0 "Regular blackouts are implemented to save energy."
+
+ NULLmod_civic_backwards:0 "Backwards"
+ NULLmod_civic_backwards_desc:0 "This society looks only to the past for answers."
+
+ NULLmod_civic_overclocking:0 "Overclocking"
+ NULLmod_civic_overclocking_desc:0 "This societies' computers are always kept running at maximum performance."
+
+ NULLmod_civic_age-of-reason:0 "Age of Reason"
+ NULLmod_civic_age-of-reason_desc:0 "In space there can only be one goal: truth."
+
+ NULLmod_civic_supreme-leader:0 "Supreme Leader"
+ NULLmod_civic_supreme-leader_desc:0 "This culture's rulers are not only worshiped as if they were gods, they are gods here."
+
+ NULLmod_civic_monuments-of-liberty:0 "Monuments of Liberty"
+ NULLmod_civic_monuments-of-liberty_desc:0 "Massive monuments make sure that all know just how accepting this culture is."
+
+ NULLmod_civic_secret-police:0 "Secret Police"
+ NULLmod_civic_secret-police_desc:0 "Big Brother is watching."
+
+ NULLmod_civic_monopolies:0 "Monopolies"
+ NULLmod_civic_monopolies_desc:0 "Restrictions on corporations lead to inefficiency, so all restrictions must be lifted."
+
+ NULLmod_civic_megacorporation:0 "Megacorporation"
+ NULLmod_civic_megacorporation_desc:0 "After a series of aquisitions and mergers, this society has only one company left."
+
+ NULLmod_civic_reborn-mind:0 "Reborn Mind"
+ NULLmod_civic_reborn-mind_desc:0 "This mind has slept. It has less experience than other minds, but more inventiveness."
+
+ NULLmod_civic_creators:0 "Creators"
+ NULLmod_civic_creators_desc:0 "This society has been designing space habitats since before they left their gravity well. Now is the time to put these designs to the test."
+ NULLmod_civic_creators_modifier:0 "Allows the construction of a variety of habitats, which normally require the Voidborn ascension perk."
+
+ NULLmod_civic_eugenics:0 "Eugenics"
+ NULLmod_civic_eugenics_desc:0 "Why have one person do something, when we can genetically modify others to do it better?"
+
+ NULLmod_civic_ancient:0 "Ancient"
+ NULLmod_civic_ancient_desc:0 "This civilization has reached for the stars in the past, and then colapsed. Now that it has this chance again, it will not fall so easily."
+
+ NULLmod_civic_malicious:0 "Malicious"
+ NULLmod_civic_malicious_desc:0 "This civilization is especially evil, and will stop at nothing to increase the output of its workers."
+
+ NULLmod_civic_advanced-mathematics:0 "Advanced Mathematics"
+ NULLmod_civic_advanced-mathematics_desc:0 "This society has always been impressed by mathematics, and the government has ususally been supportive of all manner of mathematical pursuits."
+
+ NULLmod_civic_distributed-computing:0 "Distributed Computing"
+ NULLmod_civic_distributed-computing_desc:0 "Distributed computing is a computational technique in which a problem is split into several subproblems which can be solved at the same time. This increases the speed of most computations."
+ NULLmod_civic_distributed-computing_machine:0 "Distributed Computing"
+ NULLmod_civic_distributed-computing_machine_desc:0 "Distributed computing is a computational technique in which a problem is split into several subproblems which can be solved at the same time. This increases the speed of most computations."
+
+ NULLmod_civic_factory-regulators:0 "Factory Regulators"
+ NULLmod_civic_factory-regulators_desc:0 "This machine intelligence has a large part of its central processer devoted to the study of improved fabrication techniques."
+
+ NULLmod_civic_nihilists:0 "Nihilists"
+ NULLmod_civic_nihilists_desc:0 "There is no point to life. To escape existential dread, the people have turned to other pursuits in a hopeless attempt to find meaning."
+
+ NULLmod_civic_file-transfer-protocols:0 "File Transfer Protocols"
+ NULLmod_civic_file-transfer-protocols_desc:0 "Efficient file transfer enables this machine intelligence to more quickly spread discoveries to all units."
+
+ NULLmod_civic_compiled-code:0 "Compiled Code"
+ NULLmod_civic_compiled-code_desc:0 "Although it usually provides more efficient processing, compiled code is more difficult to alter."
+
+ NULLmod_civic_insane:0 "Insane"
+ NULLmod_civic_insane_desc:0 "Over it's long existence, this hive mind has gone completely insane. This appears to provide certain unexpected benefits."
+
+ NULLmod_civic_tooltip_not-fanatic:0 "Does not have a fanatic ethic."
+
+ # megastructures
+
+ NULLmod_habitat_mining_module:0 "Mining Module"
+ NULLmod_habitat_mining_module_DESC:0 "Built specifically to harvest minerals, it does so very effectively."
+ NULLmod_habitat_mining_module_MEGASTRUCTURE_DETAILS:0 "A six-tile habitat which has +500% mineral output."
+ NULLmod_habitat_solar_module:0 "Solar Module"
+ NULLmod_habitat_solar_module_DESC:0 "A small crew and some very large solar panels make this habitat very efficient at energy harvesting."
+ NULLmod_habitat_solar_module_MEGASTRUCTURE_DETAILS:0 "A four-tile habitat which has +500% energy output."
+ NULLmod_habitat_research_module:0 "Research Module"
+ NULLmod_habitat_research_module_DESC:0 "Built with state-of-the-art computers, this habitat only requires a few researchers to generate a huge amount of research."
+ NULLmod_habitat_research_module_MEGASTRUCTURE_DETAILS:0 "A six-tile habitat which has +500% research output."
+
+ NULLmod_fail-text_requires-not-asteroid:0 "$TRIGGER_FAIL$Cannot build around an asteroid."
+ NULLmod_fail-text_requires-star:0 "$TRIGGER_FAIL$Can only build around a star."
+ NULLmod_fail-text_requires-not-gas-giant:0 "$TRIGGER_FAIL$Cannot build around a gas giant."
+
+ NULLmod_planet-modifier_mining-module:0 "Mining Module"
+ NULLmod_planet-modifier_mining-module_desc:0 "Built specifically to harvest minerals, it does so very effectively."
+ NULLmod_planet-modifier_solar-module:0 "Solar Module"
+ NULLmod_planet-modifier_solar-module_desc:0 "A small crew and some very large solar panels make this habitat very efficient at energy harvesting."
+ NULLmod_planet-modifier_research-module:0 "Research Module"
+ NULLmod_planet-modifier_research-module_desc:0 "Built with state-of-the-art computers, this habitat only requires a few researchers to generate a huge amount of research."
+
+ # techs
+ # this is from mod "Exploration Reworked"
+ tech_default_automated_exploration:0 "Exploration Codex"
+ tech_default_automated_exploration_desc:0 "Basic guidelines should help our science officers in their independent voyage across the stars."
+ # back to my stuff
+
+ # system init
+ NULLmod_system-init_min_NAME:0 "Min System"
+ NULLmod_system-init_min_DESC:0 "Lonely worlds, spinning through space. $TRIGGER_FAIL$Your empire will start on a machine world."
+
+ NULLmod_system-init_helios_NAME:0 "Helios System"
+ NULLmod_system-init_helios_DESC:0 "A system made entirely of the ideal planet class for your empire. How this came to be is unknown."
+
+ NULLmod_system-init_tor_NAME:0 "Tor System"
+ NULLmod_system-init_tor_DESC:0 "The home system of an ancient fallen empire, this system is surrounded by megastructures. $TRIGGER_FAIL$Your empire will start on a tomb world."
+
+ # traits
+ NULLmod_trait_nuclear:0 "Nuclear"
+ NULLmod_trait_nuclear_desc:0 "Nuclear powered robots are far better at energy production, but require more maintenance."
+
+ NULLmod_trait_prosthetics:0 "Prosthetics"
+ NULLmod_trait_prosthetics_desc:0 "This species regularly replaces working limbs with prosthetics."
+
+ NULLmod_trait_biomachines:0 "Biomachines"
+ NULLmod_trait_biomachines_desc:0 "This species is so mechanically enhanced that some view them as machines with biological parts rather than organisms with mechanical additions."
+
+ NULLmod_trait_self-evolved:0 "Self Evolved"
+ NULLmod_trait_self-evolved_desc:0 "These robots are a natural byproduct of evolution on their home planet rather than a creation of organics."
+
+ NULLmod_trait_prehensile-tails:0 "Prehensile Tails"
+ NULLmod_trait_prehensile-tails_desc:0 "This species is expecially tricky to deal with on the battlefield."

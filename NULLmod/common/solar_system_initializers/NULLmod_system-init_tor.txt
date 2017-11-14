@@ -1,0 +1,54 @@
+NULLmod_system-init_tor = {
+	name = "Tor System"
+	class = sc_black_hole
+	asteroids_distance = 60
+	flags = { empire_home_system }
+	usage = custom_empire
+	planet = {
+		class = star
+		size = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_nuked"
+		orbit_distance = 60
+		size = 25
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+			generate_start_buildings_and_blockers = yes
+		}
+	}
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+				every_neighbor_system = {
+					set_star_flag = empire_cluster
+					every_neighbor_system = {
+						set_star_flag = empire_cluster
+					}
+				}
+			}
+		}
+	}
+	neighbor_system = {
+		distance = { min = 10 max = 50 }	
+		initializer = "dyson_sphere_init_01"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = 50 }	
+		initializer = "science_nexus_init_01"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = 50 }	
+		initializer = "ring_world_init_01"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = 50 }	
+		initializer = "ring_world_init_01"
+	}
+}

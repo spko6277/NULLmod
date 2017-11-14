@@ -1,0 +1,9 @@
+name="NULLmod"
+path="mod/NULLmod"
+tags={
+	"Civics"
+	"Megastructures"
+	"Exploration"
+	"Empires"
+}
+supported_version="1.8.*"

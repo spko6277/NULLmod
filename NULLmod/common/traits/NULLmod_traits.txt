@@ -1,0 +1,59 @@
+NULLmod_trait_nuclear = {
+	cost = 1
+	allowed_archetypes = { MACHINE }
+	modifier = {
+		tile_resource_energy_mult = 0.30
+		pop_consumer_goods_mult = 0.10
+	}
+	opposites = { "NULLmod_trait_self-evolved" }
+}
+
+NULLmod_trait_prosthetics = {
+	cost = 2
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_consumer_goods_mult = 0.15
+		army_damage_mult = 0.20
+		tile_resource_food_mult = 0.15
+	}
+	opposites = { "NULLmod_trait_enhanced" }
+}
+
+NULLmod_trait_biomachines = {
+	cost = 4
+	allowed_archetypes = { BIOLOGICAL ROBOT }
+	modifier = {
+		pop_consumer_goods_mult = 0.50
+		tile_resource_minerals_mult = 0.15
+		tile_resource_energy_mult = 0.15
+		tile_resource_food_mult = 0.10
+		leader_age = 20
+		tile_resource_society_research_mult = 0.05
+		tile_resource_physics_research_mult = 0.05
+		tile_resource_engineering_research_mult = 0.05
+	}
+	opposites = { "NULLmod_trait_prosthetics" }
+}
+
+NULLmod_trait_self-evolved = {
+	cost = 2
+	allowed_archetypes = { MACHINE }
+	modifier = {
+		pop_robot_build_cost_mult = -0.75
+		pop_robot_build_speed_mult = 0.20
+		tile_resource_energy_mult = 0.25
+		tile_resource_minerals_mult = 0.25
+		pop_environment_tolerance = -2.0
+	}
+	species_possible_remove = { always = no }
+	species_potential_add = { always = no }
+	opposites = { "NULLmod_trait_nuclear" }
+}
+
+NULLmod_trait_prehensile-tails = {
+	cost = 1
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		army_damage_mult = 0.20
+	}
+}

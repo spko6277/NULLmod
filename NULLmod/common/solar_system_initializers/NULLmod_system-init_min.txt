@@ -1,0 +1,102 @@
+NULLmod_system-init_min = {
+	name = "NULLmod_system_min"
+	class = sc_g
+	asteroids_distance = 60
+	flags = { empire_home_system }
+	usage = custom_empire
+	planet = {
+		class = none
+		size = 0
+		orbit_distance = 0
+	}
+	planet = {
+		name = "Min"
+		class = "pc_machine"
+		orbit_distance = 1
+		size = 25
+		starting_planet = yes
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+			generate_start_buildings_and_blockers = yes
+			save_event_target_as = ring_planet
+		}
+	}
+	change_orbit = 17
+	planet = {
+		count = 9
+		class = "pc_machine"
+		orbit_distance = 0
+		orbit_angle = 40
+		size = 15
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	change_orbit = 15
+	planet = {
+		count = 5
+		class = "pc_machine"
+		orbit_distance = 0
+		orbit_angle = 72
+		size = 20
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	change_orbit = 28
+	planet = {
+		count = 12
+		class = "pc_barren_cold"
+		orbit_distance = 0
+		orbit_angle = 30
+		size = 10
+		modifiers = none
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	init_effect = {
+		spawn_megastructure = {
+			type = "ring_world_ruined"
+			orbit_angle = 0
+			orbit_distance = 45
+			location = event_target:ring_planet
+		}
+		spawn_megastructure = {
+			type = "ring_world_ruined"
+			orbit_angle = 90
+			orbit_distance = 45
+			location = event_target:ring_planet
+		}
+		spawn_megastructure = {
+			type = "ring_world_ruined"
+			orbit_angle = 180
+			orbit_distance = 45
+			location = event_target:ring_planet
+		}
+		spawn_megastructure = {
+			type = "ring_world_ruined"
+			orbit_angle = 270
+			orbit_distance = 45
+			location = event_target:ring_planet
+		}
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+				every_neighbor_system = {
+					set_star_flag = empire_cluster
+					every_neighbor_system = {
+						set_star_flag = empire_cluster
+					}
+				}
+			}
+		}
+	}
+}
